@@ -22,7 +22,6 @@ public class WriteYeeDat {
             fileWriter.flush();
             oldNameCity.add(userInputCity);
 
-
         } catch (IOException e) {
             System.out.println("Неверно указан путь к файлу с названными городами - yee.dat");
             e.printStackTrace();
