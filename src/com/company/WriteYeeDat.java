@@ -16,7 +16,7 @@ public class WriteYeeDat {
 
         try {
             FileWriter fileWriter = new FileWriter("src/com/company/yee.dat", true);
-           // System.out.println(userInputCity + " Это введенный город");
+           //System.out.println(userInputCity + " Это введенный город");
             fileWriter.append('\n');
             fileWriter.write(userInputCity);
             fileWriter.flush();
@@ -37,6 +37,4 @@ public class WriteYeeDat {
         this.userInputCity = userInputCity;
 
     }
-
-
 }
