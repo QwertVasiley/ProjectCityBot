@@ -1,2 +1,0 @@
-# ProjectCityBot
-Telegram Bot
