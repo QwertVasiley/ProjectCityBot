@@ -28,7 +28,7 @@ public class Main {
             nameCity.add(oneCity);
         }
 
-        //работаю со списком городов, которые уже были названы
+        // работаю со списком городов, которые уже были названы
         List<String> oldNameCity = new ArrayList<>();
         FileReader readOldTxt = null;
         try {
