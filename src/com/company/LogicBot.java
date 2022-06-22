@@ -75,7 +75,7 @@ public class LogicBot {
                     if (aCity.equalsIgnoreCase(cityByUser)) { //сравнил без учета регистра
                         System.out.println("Молодец, есть город " + oCity);
 
-                        //вызываю метод для записи в список названных городов
+                        // вызываю метод для записи в список названных городов
                         WriteYeeDat writeYeeDat = new WriteYeeDat((String) oCity, oldArrayCity);
                         myCity = cityByUser;
                         return;
