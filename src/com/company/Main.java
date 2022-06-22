@@ -46,7 +46,7 @@ public class Main {
             oneOldCity = scanner1.nextLine();
             oldNameCity.add(oneOldCity);
         }
-       // readOldTxt.close();  //наверное не обязательно
+       //readOldTxt.close();  //наверное не обязательно
         LogicBot logicBot = new LogicBot(nameCity,oldNameCity);
 
 
