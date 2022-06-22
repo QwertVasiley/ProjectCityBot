@@ -38,6 +38,7 @@ public class Main {
             System.out.println("Отсутствует файл хранения названных городов");
             e.printStackTrace();
         }
+
         Scanner scanner1 = new Scanner(readOldTxt);
         String oneOldCity;
 
