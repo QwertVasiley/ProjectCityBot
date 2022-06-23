@@ -49,7 +49,5 @@ public class Main {
        // readOldTxt.close();  // наверное не обязательно
         LogicBot logicBot = new LogicBot(nameCity,oldNameCity);
 
-
-
     }
 }
