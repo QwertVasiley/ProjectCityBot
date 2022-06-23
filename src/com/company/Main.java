@@ -28,7 +28,7 @@ public class Main {
             nameCity.add(oneCity);
         }
 
-        //работаю со списком городов, которые уже были названы до текущего старта
+        //работаю со списком городов, которые уже были названы
         List<String> oldNameCity = new ArrayList<>();
         FileReader readOldTxt = null;
         try {
@@ -48,6 +48,7 @@ public class Main {
         }
        // readOldTxt.close();  // наверное не обязательно
         LogicBot logicBot = new LogicBot(nameCity,oldNameCity);
+
 
     }
 }
