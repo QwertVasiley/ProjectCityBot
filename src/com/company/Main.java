@@ -23,7 +23,7 @@ public class Main {
         Scanner scanner = new Scanner(readTxt); //читаю сканером список
         String oneCity; // завел переменнуюб куда со сканера будет ложиться город
 
-        while (scanner.hasNext()) {  //загоняю весь список городов в List nameCity
+        while (scanner.hasNext()) {  // загоняю весь список городов в List nameCity
             oneCity = scanner.nextLine();
             nameCity.add(oneCity);
         }
